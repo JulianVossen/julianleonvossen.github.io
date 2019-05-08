@@ -1,0 +1,82 @@
+p { font-size: 1.5em; text-align: justify; font-family: sans-serif; }
+h1 { font-size: 2.5em; font-family: cursive; background-color: blue; text-align: center; }
+h2 { font-size: 2.2em; font-family: cursive; background-color: blue; text-align: center; }
+li { font-size: 1.7em; }
+li li { font-size: 1em; }
+th {font-size: 1.5em; text-align: justify; font-family: sans-serif;}
+td{font-size: 1.5em; text-align: justify; font-family: sans-serif;}
+table{font-size: 100%; text-align: justify; font-family: sans-serif;}
+
+#leistungen {
+  
+  border-width: thin;
+  border-style: solid;
+  background-color: rgb(0, 89, 255);
+  padding-right: 1em;
+  float: left;
+  margin-right: 1em;
+}
+
+div#leistungen p {
+  font-family: serif;
+  text-align: right;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+}
+#navibereich {
+  text-align: middle; /* rechtsbündig */
+  color: black;
+  background:white;
+  padding: 5px 10px 4px 10px;
+  border-bottom: 1px solid #8c8c8c;
+}
+  #navibereich li {
+    display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+    margin: 0 10px 0 0; /* rechts 10px, sonst 0*/
+  }
+
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: rgb(1, 10, 14);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+a:link { color: black; }
+a:visited { color: gold; }
+
+
+a:hover,
+a:focus {
+  border-bottom: 1px solid rgba(14, 171, 177, 0.747);
+}
+a:active {
+  color: white;
+  background-color: rgba(14, 171, 177, 0.747);
+}
+
+
+@import "compass/css3";
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+
+
